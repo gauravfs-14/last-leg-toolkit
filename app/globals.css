@@ -1,26 +1,264 @@
 @import "tailwindcss";
+@layer theme, base, components, utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* =========================
+   Theme Configuration
+========================= */
+@theme {
+  --foreground-rgb: 51, 51, 51;
+  --background-rgb: 245, 245, 245;
+
+  /* Custom Colors */
+  --color-maroon-50: #fdf2f2;
+  --color-maroon-100: #f7d5d5;
+  --color-maroon-200: #eeacac;
+  --color-maroon-300: #e48384;
+  --color-maroon-400: #d95a5c;
+  --color-maroon-500: #c93233;
+  --color-maroon-600: #a9282a;
+  --color-maroon-700: #8a2223;
+  --color-maroon-800: #6b1b1c;
+  --color-maroon-900: #501214;
+  --color-maroon-950: #350b0d;
+
+  --color-gold-50: #fcf9ef;
+  --color-gold-100: #f7eecd;
+  --color-gold-200: #eedc9b;
+  --color-gold-300: #e3c467;
+  --color-gold-400: #dbb344;
+  --color-gold-500: #c69e2d;
+  --color-gold-600: #a78025;
+  --color-gold-700: #866720;
+  --color-gold-800: #6a5638;
+  --color-gold-900: #473a25;
+  --color-gold-950: #271f12;
+
+  --color-charcoal-50: #f7f7f7;
+  --color-charcoal-100: #e3e3e3;
+  --color-charcoal-200: #c8c8c8;
+  --color-charcoal-300: #a4a4a4;
+  --color-charcoal-400: #818181;
+  --color-charcoal-500: #666666;
+  --color-charcoal-600: #4d4d4d;
+  --color-charcoal-700: #363534;
+  --color-charcoal-800: #292929;
+  --color-charcoal-900: #171717;
+  --color-charcoal-950: #0d0d0d;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  /* Fonts */
+  --font-sans: var(--font-inter), sans-serif;
+  --font-heading: var(--font-montserrat), sans-serif;
+
+  /* Border radius */
+  --radius-lg: 0.75rem;
+  --radius-md: 0.5rem;
+  --radius-sm: 0.25rem;
+
+  /* Shadows */
+  --shadow-soft: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+
+  /* Animations */
+  --accordion-down: accordion-down 0.2s ease-out;
+  --accordion-up: accordion-up 0.2s ease-out;
+  --fade-in: fade-in 0.5s ease-out;
+  --slide-up: slide-up 0.5s ease-out;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* =========================
+   Base Styles
+========================= */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-maroon-800);
+  outline-offset: 2px;
+}
+
+.hero-gradient {
+  background: linear-gradient(to right, rgba(25, 25, 25, 0.8), rgba(25, 25, 25, 0.5));
+}
+
+/* =========================
+   Keyframes
+========================= */
+@keyframes accordion-down {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* =========================
+   Utility Classes
+========================= */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@utility text-balance {
+  text-wrap: balance;
+}
+@utility text-pretty {
+  text-wrap: pretty;
+}
+@utility section-padding {
+  padding-block: 2.5rem;
+}
+@utility focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-maroon-500);
+}
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all 0.2s;
+}
+@utility btn-primary {
+  background-color: var(--color-maroon-600);
+  color: white;
+}
+@utility btn-secondary {
+  background-color: white;
+  color: var(--color-maroon-700);
+  border: 1px solid var(--color-maroon-200);
+}
+@utility btn-gold {
+  background-color: var(--color-gold-700);
+  color: white;
+}
+@utility card {
+  background-color: white;
+  border: 1px solid #f3f4f6;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+@utility animate-on-scroll {
+  opacity: 0;
+}
+@utility animate-on-scroll.animated {
+  animation: var(--slide-up);
+}
+
+/* =========================
+   Form Inputs
+========================= */
+input,
+select,
+textarea {
+  border-radius: var(--radius-md);
+  border: 1px solid #d1d5db;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-maroon-300);
+  box-shadow: 0 0 0 3px rgba(201, 50, 51, 0.3);
+}
+
+/* =========================
+   Hover Dropdown Menu
+========================= */
+@media (min-width: 768px) {
+  .group:hover .group-hover\:visible {
+    visibility: visible;
+  }
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  .group:hover .group-hover\:rotate-180 {
+    transform: rotate(180deg);
+  }
+  .group:hover .group-hover\:bg-maroon-800 {
+    background-color: var(--color-maroon-800);
+  }
+}
+
+/* =========================
+   Miscellaneous
+========================= */
+body.menu-open {
+  overflow: hidden;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration: underline;
+  }
 }

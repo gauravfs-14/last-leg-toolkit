@@ -1,0 +1,29 @@
+{
+  "cards": [
+    {
+      "title": "ABOUT THE TOOLKIT",
+      "description": "Learn about the Last-Leg Toolkit, a comprehensive framework for addressing the final miles of impaired journeys.",
+      "buttonLink": "/about",
+      "icon": "FileText"
+    },
+    {
+      "title": "CASE STUDIES",
+      "description": "Explore real-world examples of successful programs that have tackled similar challenges, from rural Wisconsin's \"Road Crew\" to New Jersey's \"Evesham Saves Lives\" initiative.",
+      "buttonLink": "/case-studies",
+      "icon": "FileText"
+    },
+    {
+      "title": "DIGITAL TOOLS",
+      "description": "Discover a taxonomy of innovative technologies that can help prevent or mitigate last-leg impaired driving, from ridesharing integration to impairment detection apps.",
+      "buttonLink": "/digital-tools",
+      "icon": "Smartphone"
+    },
+    {
+      "title": "IMPLEMENTATION",
+      "description": "Learn how to put these ideas into practice with clear guidance on partnerships, funding, policy adjustments, and program deployment.",
+      "buttonLink": "/implementation",
+      "icon": "Settings"
+    }
+  ]
+}
+

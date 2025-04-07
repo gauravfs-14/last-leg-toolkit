@@ -1,0 +1,47 @@
+{
+  "title": "Case Studies of Programs Addressing Last-Leg Impaired Driving",
+  "introduction": "Before developing new solutions, it is instructive to examine existing programs and pilot initiatives that have tackled similar challenges. Below are several case studies and examples from U.S. communities, illustrating approaches to provide safe alternatives for that last leg home.",
+  "caseStudies": [
+    {
+      "title": "Wisconsin \"Road Crew\" Program",
+      "location": "Rural Wisconsin",
+      "description": "In several rural Wisconsin communities lacking public transportation, the Road Crew program was created to provide rides to, between, and home from taverns and events, so that patrons would not drive drunk. Importantly, it was designed with extensive input from local bar owners, young adult residents (the target demographic), community leaders, and even a major brewing company.",
+      "outcomes": "In a study of three pilot communities, two saw significant reductions in alcohol-impaired driving and even achieved self-sustainability (the program's costs were covered by modest rider fees and contributions from participating taverns).",
+      "lessons": "The stakeholder-driven approach paid off. The third community's program did not succeed, which researchers attributed to a lack of trust and cooperation among the local coalition – highlighting how crucial community buy-in is to success. Overall, Road Crew became a model for rural areas, showing that with the right partnerships and marketing, a safe ride program can become \"part of the community's culture\" and measurably reduce drunk driving crashes.",
+      "image": "/images/wisconsin.jpg"
+    },
+    {
+      "title": "Evesham \"Saves Lives\" Rideshare Partnership",
+      "location": "Suburban New Jersey",
+      "description": "Evesham Township, NJ, a suburban community, launched an innovative program to subsidize rideshare trips for intoxicated patrons. From 2015–2018, the Evesham Saves Lives initiative offered free or low-cost Uber rides from any bar or restaurant in town to the resident's home between 9 p.m. and 2 a.m.",
+      "outcomes": "An independent evaluation found the program was associated with an 18% reduction in overall injury crashes in the township, with the greatest declines occurring at night (an estimated 38% reduction in nighttime crashes). Over the few years, analysts estimated 3 lives were saved and hundreds of injuries prevented due to this program.",
+      "lessons": "This case study demonstrates the power of public-private partnerships (the township, a nonprofit foundation, and Uber collaborated) and that making safe transportation free and convenient can significantly reduce impaired driving harms. It's worth noting many participants likely left their personal cars parked overnight at the bar or transit station and used Uber, so the program implicitly had to address issues like allowing overnight parking and next-day vehicle retrieval.",
+      "image": "/images/evesham.jpg"
+    },
+    {
+      "title": "Transit \"Free Ride\" Promotions by Breweries",
+      "location": "Various Urban Centers",
+      "description": "Molson Coors has sponsored \"Free Rides\" programs in many cities where on major drinking occasions (New Year's Eve, St. Patrick's Day, big sports events), the local mass transit (buses, light rail, commuter trains) is offered fare-free to all riders.",
+      "outcomes": "Millions have taken advantage of these free transit nights. This encourages those celebrating to leave their car at home or at a park-and-ride and take transit both ways, rather than driving at all.",
+      "lessons": "While these promotions are limited to specific high-risk nights, they show a successful collaboration between the alcohol industry, transit agencies, and law enforcement to prevent impaired driving. However, they also highlight the gap that remains on ordinary nights or in areas without robust transit – a gap the toolkit must address.",
+      "image": "/images/free-rides.jpg"
+    },
+    {
+      "title": "Tavern League and Community Ride Voucher Programs",
+      "location": "Wisconsin and Minnesota",
+      "description": "In some states like Wisconsin and Minnesota, bar-owner associations and nonprofit coalitions have created ongoing voucher systems for free or discounted rides. The Tavern League of Wisconsin's SafeRide program provides free cab or rideshare rides home from member establishments, funded by a state OWI (DUI) surcharge and Tavern League contributions.",
+      "outcomes": "These programs have successfully provided thousands of safe rides home, preventing potential impaired driving incidents.",
+      "lessons": "These programs often had to overcome initial skepticism from some bar proprietors (concerned that easy rides home might not benefit them financially), but when implemented, they provided another model: local businesses directly ensuring their customers have a safe last leg home. The key takeaway is that community-driven solutions with the alcohol-serving establishments on board can thrive, whereas those implemented top-down without bar owner buy-in may struggle.",
+      "image": "/images/tavern-league.jpg"
+    },
+    {
+      "title": "\"Operation Red Nose\" and Designated Driver Services",
+      "location": "Various Communities (primarily Canada)",
+      "description": "Although more common in Canada, volunteer-based programs like Operation Red Nose (active in some U.S. communities during holidays) send a team to drive an impaired person and their vehicle home. This approach specifically addresses the last-leg problem of \"what about my car?\" by having volunteers come in pairs – one drives the impaired person's car home, the other follows to pick up the driver afterward.",
+      "outcomes": "These services have successfully provided safe transportation for both impaired individuals and their vehicles, addressing a key barrier to using alternative transportation.",
+      "lessons": "These examples show a practical strategy for suburban/rural areas: help people get themselves and their cars home safely, so they're not tempted to drive impaired for fear of leaving the car stranded. Any nationwide toolkit can incorporate these ideas or partner with such programs for the last leg from transit hubs or event venues.",
+      "image": "/images/red-nose.jpg"
+    }
+  ]
+}
+

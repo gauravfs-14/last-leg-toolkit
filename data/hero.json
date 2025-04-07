@@ -1,0 +1,19 @@
+{
+  "slides": [
+    {
+      "title": "PREVENT IMPAIRED DRIVING",
+      "subtitle": "CHECK OUT OUR 7 STRATEGIES FOR EFFECTIVE COMMUNITY CHANGE",
+      "buttonText": "Learn More",
+      "buttonLink": "/prevention-strategies",
+      "image": "/images/driving.jpg"
+    },
+    {
+      "title": "COMMUNITY SAFETY",
+      "subtitle": "WORKING TOGETHER TO REDUCE IMPAIRED DRIVING INCIDENTS",
+      "buttonText": "Get Involved",
+      "buttonLink": "/get-started",
+      "image": "/images/community.jpg"
+    }
+  ]
+}
+

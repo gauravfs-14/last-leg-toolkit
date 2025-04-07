@@ -1,0 +1,27 @@
+{
+  "title": "About the Last-Leg Toolkit",
+  "introduction": "This comprehensive framework outlines a scalable U.S.-wide Last-Leg Impaired Driving Prevention Toolkit designed for State Highway Safety Offices and their partners. It addresses the emerging safety gap when travelers reach the end of a transit trip or flight and face a final drive under the influence.",
+  "sections": [
+    {
+      "title": "The Challenge",
+      "content": "A significant number of people are using transit or rail for the main portion of their journey into the city to drink or celebrate, only to face the final drive home while impaired. This scenario exposes not only the impaired driver but other road users to crash risk on that last leg. The problem is especially acute in suburban and rural areas, where transit ends and few alternative options exist for those last few miles.",
+      "image": "/images/challenge.jpg"
+    },
+    {
+      "title": "Scope and Trends",
+      "content": "Studies show that approximately half of intoxicated drivers arrested for DUI report having had their last drink at a licensed bar or restaurant, and a high proportion of those individuals drove themselves to that drinking location. Many attempt to mitigate risk by using public transportation or rides for part of their journey, but if the transit option doesn't reach their home, the safety benefits can be lost. Late-night public transit does help reduce impaired driving in urban cores, but the benefit can be offset by \"spatial shifting\" of risk – people take the train then drive drunk farther out in the suburbs.",
+      "image": "/images/trends.jpg"
+    },
+    {
+      "title": "Our Approach",
+      "content": "This toolkit provides a comprehensive framework for addressing last-leg impaired driving through a combination of case studies, digital tools, implementation strategies, and outreach resources. It is designed to be adaptable to different community contexts, from urban centers to rural areas, and scalable based on available resources and infrastructure.",
+      "image": "/images/approach.jpg"
+    },
+    {
+      "title": "Who Should Use This Toolkit",
+      "content": "This toolkit is designed for State Highway Safety Offices (SHSOs), transportation agencies, law enforcement, public health officials, community organizations, and other stakeholders involved in impaired driving prevention. It provides practical guidance for implementing effective strategies to address the last-leg impaired driving challenge.",
+      "image": "/images/users.jpg"
+    }
+  ]
+}
+

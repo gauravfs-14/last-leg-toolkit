@@ -1,0 +1,15 @@
+{
+  "logo": {
+    "text": "Last-Leg Toolkit",
+    "subtext": "Preventing Impaired Driving"
+  },
+  "links": [
+    { "title": "HOME", "path": "/" },
+    { "title": "ABOUT", "path": "/about" },
+    { "title": "CASE STUDIES", "path": "/case-studies" },
+    { "title": "DIGITAL TOOLS", "path": "/digital-tools" },
+    { "title": "IMPLEMENTATION", "path": "/implementation" },
+    { "title": "RESOURCES", "path": "/resources" }
+  ]
+}
+

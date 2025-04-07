@@ -1,0 +1,137 @@
+{
+  "title": "Outreach and Research Resources",
+  "introduction": "Introducing a nationwide toolkit and new local programs to combat last-leg impaired driving requires robust outreach and communication strategies, as well as ongoing research to refine approaches.",
+  "sections": [
+    {
+      "title": "Outreach and Communication Strategies",
+      "content": "Both stakeholders (e.g., transit agencies, businesses, community leaders) and the general public need to understand the issue and embrace the proposed solutions. The ultimate goal is behavior change – convincing individuals who might otherwise drive impaired to instead use the provided alternatives.",
+      "strategies": [
+        {
+          "title": "Define a Clear Public Message and Campaign",
+          "description": "Frame the problem and solution in a way that resonates with the public. Many people may not have considered that \"driving the short distance home from the train station can be just as dangerous as driving all the way from the city while drunk.\"",
+          "examples": [
+            "Potential slogan: \"Finish Safe: No Driving Required on Your Last Leg Home\"",
+            "Highlight that impaired driving is dangerous no matter the distance",
+            "Use positive messaging that reinforces smart choices",
+            "Develop consistent visual branding for the campaign"
+          ]
+        },
+        {
+          "title": "Leverage Multiple Communication Channels",
+          "description": "To reach the target audience (which includes commuters, event-goers, and generally 21–50-year-olds who go out and might drink), use a multichannel outreach approach.",
+          "examples": [
+            "Traditional media: TV and radio news segments",
+            "Social media: geotargeted ads on platforms like Twitter, Facebook, and Instagram",
+            "Printed materials: posters and signage at strategic locations",
+            "Educational outreach: informational booths at events or transit stations"
+          ]
+        },
+        {
+          "title": "Engage and Educate Stakeholders and Partners",
+          "description": "Partner agencies and businesses must understand the program and actively support it.",
+          "examples": [
+            "Conduct briefing sessions for transit agency staff",
+            "Work with bar owners and restaurant associations near transit hubs",
+            "Engage large employers to communicate with their employees",
+            "Include law enforcement and first responders in the awareness campaign",
+            "Partner with community groups like MADD"
+          ]
+        },
+        {
+          "title": "Emphasize Social Acceptance and Eliminate Stigma",
+          "description": "Make choosing not to drive the \"cool\" and responsible thing to do.",
+          "examples": [
+            "Share testimonials from people who regularly use these services",
+            "Address misconceptions about convenience or cost",
+            "Use positive framing and appropriate humor",
+            "Highlight the legal consequences of impaired driving",
+            "Leverage peer pressure in a positive way"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Future Research Priorities",
+      "content": "While this framework provides a strong starting point, there remain knowledge gaps and emerging issues that warrant further research.",
+      "priorities": [
+        {
+          "title": "Quantifying the Last-Leg Problem",
+          "description": "More data is needed to fully understand the scope of impaired driving that originates from transit hubs, park-and-rides, and similar contexts.",
+          "areas": [
+            "Analysis of DUI arrest records to identify transit-related cases",
+            "Surveys of transit riders about impaired driving behavior",
+            "Detailed crash investigations to flag transit-related incidents",
+            "Establishing clear metrics to track the problem over time"
+          ]
+        },
+        {
+          "title": "Evaluating Effectiveness of Specific Interventions",
+          "description": "A systematic evaluation of different countermeasures under various conditions is needed.",
+          "areas": [
+            "Controlled studies comparing communities with and without interventions",
+            "Testing the impact of different subsidy levels for ride services",
+            "Comparing technology-based vs. service-based approaches",
+            "Focusing on solutions for rural areas"
+          ]
+        },
+        {
+          "title": "Human Factors and Behavioral Research",
+          "description": "Understanding the human decision-making aspect is crucial.",
+          "areas": [
+            "Exploring why individuals sometimes still choose to drive after using transit",
+            "Identifying psychological or cultural barriers to using alternatives",
+            "Developing effective behavioral nudges",
+            "Studying differences between alcohol and drug impairment behaviors"
+          ]
+        },
+        {
+          "title": "Technology Development and Testing",
+          "description": "Ongoing R&D is needed to refine tools.",
+          "areas": [
+            "Improving mobile impairment detection apps",
+            "Integrating passive vehicle sensors",
+            "Testing autonomous vehicle shuttles for first/last mile transport",
+            "Incorporating in-vehicle alcohol detection technology"
+          ]
+        },
+        {
+          "title": "Policy Research – Legal and Economic Analysis",
+          "description": "Future research should also address the policy dimension.",
+          "areas": [
+            "Calculating the cost of crashes versus the cost of implementing countermeasures",
+            "Examining legal frameworks and DUI laws in relation to multimodal travel",
+            "Studying the sustainability of various funding models",
+            "Comparing different jurisdictions' approaches and outcomes"
+          ]
+        },
+        {
+          "title": "Equity and Accessibility Research",
+          "description": "Ensuring that solutions are equitable and accessible to all populations.",
+          "areas": [
+            "Evaluating who benefits from interventions and who might be left out",
+            "Developing solutions for those without smartphones or credit cards",
+            "Testing programs specifically aimed at vulnerable populations",
+            "Researching differences in urban vs. rural effectiveness"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "References and Additional Resources",
+      "content": "The following resources provide additional information and research on last-leg impaired driving prevention.",
+      "references": [
+        "National Academies of Sciences (TRB) – Toolkit for Reducing Substance-Impaired Driving for the Last Leg of the Journey (Project BTS-39)",
+        "Fell et al. (2020) – \"The Effectiveness of Alternative Transportation Programs in Reducing Impaired Driving: A Literature Review\" (Journal of Safety Research)",
+        "Jackson & Owens (2010) – \"One for the Road: Public Transportation, Alcohol Consumption, and Intoxicated Driving\" (NBER Working Paper)",
+        "Wisconsin DOT & Partners – Road Crew Program Case Study",
+        "Humphreys et al. (2021) – Evaluation of Evesham (NJ) Saves Lives Rideshare Program",
+        "Molson Coors \"Free Rides\" Program – Corporate Responsibility Report",
+        "Dallas Area Rapid Transit – GoPass App Uber Integration News",
+        "Impairment Science, Inc. – DRUID App description",
+        "Federal Register (2024) – Advanced Impaired Driving Prevention Technology ANPRM (NHTSA)",
+        "Various media and program websites – Outreach and program materials (Tavern League SafeRide, etc.)"
+      ]
+    }
+  ]
+}
+

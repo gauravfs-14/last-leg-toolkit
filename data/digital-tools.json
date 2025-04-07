@@ -1,0 +1,73 @@
+{
+  "title": "Taxonomy of Digital Tools & Technology Solutions",
+  "introduction": "A core component of this framework is a taxonomy of digital tools and innovative technologies that can help prevent or mitigate last-leg impaired driving. These range from mobile apps and platforms to vehicle-based technology and data-driven interventions.",
+  "tools": [
+    {
+      "title": "Real-Time Ridesharing and On-Demand Transit Integration",
+      "description": "The ubiquity of smartphones enables on-demand ride services to fill first/last mile gaps. Partnering with rideshare companies (Uber, Lyft) or microtransit providers is a key strategy.",
+      "examples": [
+        "Dallas Area Rapid Transit (DART) integrated Uber directly into its GoPass transit app to let riders seamlessly hail a last-mile ride from a station",
+        "Riders in certain zones pay only a flat low transit fare (e.g. $2.50) and the transit agency subsidizes the rest of the Uber trip",
+        "Agencies can deploy dedicated on-demand shuttles or microtransit vans in key areas"
+      ],
+      "implementation": "For a statewide toolkit, encouraging agreements with TNCs (Transportation Network Companies) to provide discounted last-leg rides (possibly subsidized by safety grants) is a scalable solution. From the user's perspective, the easier and cheaper it is to summon a ride, the less likely they are to choose driving.",
+      "icon": "Car"
+    },
+    {
+      "title": "Ride-Matching and Carpooling Platforms for the Last Leg",
+      "description": "In areas with lower population density, a fully on-demand service might not be economically feasible at large scale. Here, ride-matching platforms can help.",
+      "examples": [
+        "Simple forums or apps where commuters arrange designated driver rotations",
+        "Advanced algorithms that match riders leaving a transit station with drivers (who are sober) headed in the same direction",
+        "Peer-to-peer ride-share for that last segment, orchestrated via a digital platform"
+      ],
+      "implementation": "The toolkit can categorize these as community-based mobility solutions enabled by apps. Another angle is pre-arranged designated drivers: digital platforms where individuals can volunteer to be on-call to drive others' vehicles home.",
+      "icon": "Users"
+    },
+    {
+      "title": "Mobile Impairment Self-Assessment Tools",
+      "description": "Smartphone technology also offers the possibility of preventing an impaired drive before it starts, by empowering individuals to assess their own fitness to drive.",
+      "examples": [
+        "Mobile impairment detection apps like DRUID (Driving Under the Influence of Drugs) that use short cognitive and motor tests on a phone to measure impairment level",
+        "Personal breathalyzer devices that connect to smartphones",
+        "Programs in Colorado and other states have piloted giving out free or discounted personal breathalyzers"
+      ],
+      "implementation": "SHSOs could partner with device makers to distribute personal breath-testers or promote reputable impairment apps in areas around transit hubs, perhaps with signage like \"Check yourself before you drive\" and a QR code to download the app.",
+      "icon": "Smartphone"
+    },
+    {
+      "title": "Geo-Fencing and Location-Based Interventions",
+      "description": "Digital technology allows targeting specific locations or areas with tailored interventions. Geo-fencing uses GPS or other location data to trigger actions when a user's phone (or connected car) enters or leaves a defined zone.",
+      "examples": [
+        "A transit agency app could geo-fence its park-and-ride lots after 9 p.m. – when a user enters the lot, they could receive an automated text or notification",
+        "Geo-fence around nightlife districts or stadiums – when an event ends, anyone who arrived by transit could get a push notification",
+        "Digital signage at lot exits could be triggered at late hours, flashing alternatives to driving impaired"
+      ],
+      "implementation": "The taxonomy thus includes location-based messaging and controls as a technology-enabled strategy. Geo-fencing could also be used to provide rewards or incentives: for example, if a person leaves their car overnight within a geo-fenced station lot, the system could issue them a coupon for a coffee via email.",
+      "icon": "MapPin"
+    },
+    {
+      "title": "In-Vehicle Advanced Impairment Prevention Tech",
+      "description": "Beyond personal devices, the vehicles themselves are getting smarter. The Infrastructure Investment and Jobs Act (2021) mandated that NHTSA move toward requiring advanced impaired driving prevention technology in all new vehicles in coming years.",
+      "examples": [
+        "DADSS (Driver Alcohol Detection System for Safety), which is developing sensors that measure alcohol either through the air in the cabin or through the driver's touch on the starter button",
+        "Systems that would prevent the vehicle from shifting into gear if the driver's BAC is above the legal limit",
+        "Aftermarket devices or telematics that individuals or families can install in current vehicles for voluntary protection"
+      ],
+      "implementation": "SHSOs should stay abreast of these developments and consider incentivizing their use in fleet vehicles. While such technology is still in development and testing, it is anticipated to become a standard feature in new cars later this decade.",
+      "icon": "Car"
+    },
+    {
+      "title": "Data Analytics and Predictive Policing Tools",
+      "description": "Digital tools are not only for the traveler but also for agencies to better understand and respond to the problem. SHSOs can use GIS mapping and data analytics to identify hotspots where last-leg impaired driving is prevalent.",
+      "examples": [
+        "Analyzing DUI arrest locations relative to transit stations or bar concentrations",
+        "Identifying park-and-ride lots with frequent overnight parking on weekends or frequent post-midnight departures",
+        "Using predictive modeling to allocate resources like sobriety checkpoints or dedicated DUI patrols"
+      ],
+      "implementation": "The toolkit can include guidance on leveraging state crash databases, citation data, and even transit usage stats to pinpoint where interventions will have the most impact. Privacy-compliant use of smartphone mobility data could also help illustrate late-night travel patterns.",
+      "icon": "BarChart"
+    }
+  ]
+}
+

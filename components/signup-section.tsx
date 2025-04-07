@@ -1,33 +1,33 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { useState } from "react"
-import { MailCheck, Mail } from "lucide-react"
+import type React from "react";
+import { useState } from "react";
+import { MailCheck, Mail } from "lucide-react";
 
 export function SignupSection() {
-  const [email, setEmail] = useState("")
-  const [submitted, setSubmitted] = useState(false)
-  const [error, setError] = useState("")
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
   const validateEmail = (email: string) => {
-    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-    return re.test(email)
-  }
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return re.test(email);
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setError("")
+    e.preventDefault();
+    setError("");
 
     if (!validateEmail(email)) {
-      setError("Please enter a valid email address")
-      return
+      setError("Please enter a valid email address");
+      return;
     }
 
     // Here you would typically send the email to your backend
-    console.log("Email submitted:", email)
-    setSubmitted(true)
-    setEmail("")
-  }
+    console.log("Email submitted:", email);
+    setSubmitted(true);
+    setEmail("");
+  };
 
   return (
     <div className="p-8 sm:p-10">
@@ -45,12 +45,16 @@ export function SignupSection() {
             <MailCheck className="text-green-600 w-6 h-6" aria-hidden="true" />
           </div>
           <h3 className="text-xl font-bold text-green-700 mb-2">Thank You!</h3>
-          <p className="text-green-600">Your email has been submitted successfully. You'll receive updates soon.</p>
+          <p className="text-green-600">
+            Your email has been submitted successfully. You&apos;ll receive
+            updates soon.
+          </p>
         </div>
       ) : (
         <>
           <p className="text-charcoal-600 mb-6">
-            Be the first to know about news, blog posts, scholarships, events and much more!
+            Be the first to know about news, blog posts, scholarships, events
+            and much more!
           </p>
           <form onSubmit={handleSubmit} className="space-y-4" noValidate>
             <div>
@@ -64,7 +68,11 @@ export function SignupSection() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email address"
                 required
-                className={`w-full px-4 py-3 rounded-md border ${error ? "border-red-300 focus:border-red-500 focus:ring-red-200" : "border-gray-300 focus:border-maroon-300 focus:ring-maroon-200"} focus:ring focus:ring-opacity-50 text-charcoal-700`}
+                className={`w-full px-4 py-3 rounded-md border ${
+                  error
+                    ? "border-red-300 focus:border-red-500 focus:ring-red-200"
+                    : "border-gray-300 focus:border-maroon-300 focus:ring-maroon-200"
+                } focus:ring focus:ring-opacity-50 text-charcoal-700`}
                 aria-label="Email address"
                 aria-describedby={error ? "email-error" : undefined}
                 aria-invalid={error ? "true" : "false"}
@@ -85,6 +93,5 @@ export function SignupSection() {
         </>
       )}
     </div>
-  )
+  );
 }
-

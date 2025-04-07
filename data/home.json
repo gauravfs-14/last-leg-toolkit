@@ -6,14 +6,14 @@
         "subtitle": "A comprehensive framework for addressing the final miles of impaired journeys",
         "buttonText": "Learn More",
         "buttonLink": "/about",
-        "image": "/images/driving.jpg"
+        "image": "/images/driving.webp"
       },
       {
         "title": "The Last-Leg Challenge",
         "subtitle": "When travelers reach the end of a transit trip and face a final drive under the influence",
         "buttonText": "Explore Solutions",
         "buttonLink": "/digital-tools",
-        "image": "/images/challenge.jpg"
+        "image": "/images/challenge.jpeg"
       },
       {
         "title": "Community-Based Approaches",
@@ -73,4 +73,3 @@
     }
   ]
 }
-

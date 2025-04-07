@@ -1,6 +1,7 @@
 {
   "title": "Implementation Strategies for Agencies",
   "introduction": "Identifying tools is only step one – the implementation and scaling of these solutions across diverse U.S. communities is the true challenge. State Highway Safety Offices and partner agencies will need clear guidance on how to put these ideas into practice, often starting with pilot programs and moving to broader adoption.",
+  "bgImage": "/images/users.jpg",
   "strategies": [
     {
       "title": "Foster Multi-Agency Partnerships and Leadership",
@@ -82,4 +83,3 @@
     }
   ]
 }
-

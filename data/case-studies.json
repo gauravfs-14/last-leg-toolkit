@@ -1,6 +1,7 @@
 {
   "title": "Case Studies of Programs Addressing Last-Leg Impaired Driving",
   "introduction": "Before developing new solutions, it is instructive to examine existing programs and pilot initiatives that have tackled similar challenges. Below are several case studies and examples from U.S. communities, illustrating approaches to provide safe alternatives for that last leg home.",
+  "bgImage": "/images/driving.webp",
   "caseStudies": [
     {
       "title": "Wisconsin \"Road Crew\" Program",
@@ -44,4 +45,3 @@
     }
   ]
 }
-

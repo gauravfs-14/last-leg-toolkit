@@ -1,6 +1,7 @@
 {
   "title": "About the Last-Leg Toolkit",
   "introduction": "This comprehensive framework outlines a scalable U.S.-wide Last-Leg Impaired Driving Prevention Toolkit designed for State Highway Safety Offices and their partners. It addresses the emerging safety gap when travelers reach the end of a transit trip or flight and face a final drive under the influence.",
+  "bgImage": "/images/about.jpg",
   "sections": [
     {
       "title": "The Challenge",

@@ -1,6 +1,7 @@
 {
   "title": "Taxonomy of Digital Tools & Technology Solutions",
   "introduction": "A core component of this framework is a taxonomy of digital tools and innovative technologies that can help prevent or mitigate last-leg impaired driving. These range from mobile apps and platforms to vehicle-based technology and data-driven interventions.",
+  "bgImage": "/images/digital-tools.jpg",
   "tools": [
     {
       "title": "Real-Time Ridesharing and On-Demand Transit Integration",
@@ -70,4 +71,3 @@
     }
   ]
 }
-

@@ -12,7 +12,7 @@ export function Footer() {
               A comprehensive framework for addressing the final miles of
               impaired journeys.
             </p>
-            {/* <div className="flex space-x-4">
+            <div className="flex space-x-4">
               <a
                 href="#"
                 className="text-gray-300 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-charcoal-800 p-1 rounded-full"
@@ -34,7 +34,7 @@ export function Footer() {
               >
                 <Mail size={20} aria-hidden="true" />
               </a>
-            </div> */}
+            </div>
           </div>
 
           <div>

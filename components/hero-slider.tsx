@@ -1,54 +1,54 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface SlideProps {
-  title: string
-  subtitle: string
-  buttonText: string
-  buttonLink: string
-  image: string
+  title: string;
+  subtitle: string;
+  buttonText: string;
+  buttonLink: string;
+  image: string;
 }
 
 interface HeroSliderProps {
-  slides: SlideProps[]
+  slides: SlideProps[];
 }
 
 export function HeroSlider({ slides }: HeroSliderProps) {
-  const [currentSlide, setCurrentSlide] = useState(0)
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
-  }, [slides.length])
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  }, [slides.length]);
 
   const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))
-  }, [slides.length])
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  }, [slides.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      nextSlide()
-    }, 6000)
+      nextSlide();
+    }, 6000);
 
-    return () => clearInterval(interval)
-  }, [nextSlide])
+    return () => clearInterval(interval);
+  }, [nextSlide]);
 
   // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft") {
-        prevSlide()
+        prevSlide();
       } else if (e.key === "ArrowRight") {
-        nextSlide()
+        nextSlide();
       }
-    }
+    };
 
-    window.addEventListener("keydown", handleKeyDown)
-    return () => window.removeEventListener("keydown", handleKeyDown)
-  }, [nextSlide, prevSlide])
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [nextSlide, prevSlide]);
 
   return (
     <div
@@ -61,7 +61,9 @@ export function HeroSlider({ slides }: HeroSliderProps) {
         <div
           key={index}
           className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? "opacity-100" : "opacity-0 pointer-events-none"
+            index === currentSlide
+              ? "opacity-100"
+              : "opacity-0 pointer-events-none"
           }`}
           aria-hidden={index !== currentSlide}
           role="group"
@@ -133,13 +135,18 @@ export function HeroSlider({ slides }: HeroSliderProps) {
         <ChevronRight size={24} aria-hidden="true" />
       </button>
 
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-2" role="tablist">
+      <div
+        className="absolute z-50 bottom-6 left-1/2 -translate-x-1/2 flex space-x-2"
+        role="tablist"
+      >
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white ${
-              index === currentSlide ? "bg-white w-8" : "bg-white/50 hover:bg-white/80"
+              index === currentSlide
+                ? "bg-white w-8"
+                : "bg-white/50 hover:bg-white/80"
             }`}
             aria-label={`Go to slide ${index + 1}`}
             aria-selected={index === currentSlide}
@@ -149,6 +156,5 @@ export function HeroSlider({ slides }: HeroSliderProps) {
         ))}
       </div>
     </div>
-  )
+  );
 }
-

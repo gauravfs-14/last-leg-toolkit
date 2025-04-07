@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Facebook, Twitter, Mail } from "lucide-react"
+import Link from "next/link";
+import { Facebook, Twitter, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,9 +9,10 @@ export function Footer() {
           <div>
             <h2 className="text-xl font-bold mb-4">Last-Leg Toolkit</h2>
             <p className="text-gray-300 mb-4">
-              A comprehensive framework for addressing the final miles of impaired journeys.
+              A comprehensive framework for addressing the final miles of
+              impaired journeys.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="#"
                 className="text-gray-300 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-charcoal-800 p-1 rounded-full"
@@ -33,7 +34,7 @@ export function Footer() {
               >
                 <Mail size={20} aria-hidden="true" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -95,22 +96,17 @@ export function Footer() {
           <div>
             <h2 className="text-xl font-bold mb-4">Contact</h2>
             <address className="not-italic">
-              <p className="text-gray-300 mb-2">For more information about the Last-Leg Toolkit, please contact:</p>
+              <p className="text-gray-300 mb-2">
+                For more information about the Last-Leg Toolkit, please contact:
+              </p>
               <p className="text-gray-300">
-                Email:{" "}
                 <a
-                  href="mailto:info@lastlegtoolkit.org"
+                  href="https://ait-lab.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-white transition-colors focus:outline-none focus:text-white"
                 >
-                  info@lastlegtoolkit.org
-                </a>
-                <br />
-                Phone:{" "}
-                <a
-                  href="tel:+15551234567"
-                  className="hover:text-white transition-colors focus:outline-none focus:text-white"
-                >
-                  (555) 123-4567
+                  AIT Lab
                 </a>
               </p>
             </address>
@@ -118,10 +114,13 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Last-Leg Toolkit. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Last-Leg Toolkit. All rights reserved.
+          </p>
           <p className="mt-2 text-sm">
-            Based on: National Academies of Sciences (TRB) – Toolkit for Reducing Substance-Impaired Driving for the
-            Last Leg of the Journey (Project BTS-39)
+            Based on: National Academies of Sciences (TRB) – Toolkit for
+            Reducing Substance-Impaired Driving for the Last Leg of the Journey
+            (Project BTS-39)
           </p>
           <p className="mt-2 text-sm">
             Developed By:{" "}
@@ -146,6 +145,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-

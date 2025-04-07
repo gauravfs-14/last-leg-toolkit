@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/og-image.png",
-        width: 1200,
-        height: 630,
+        width: 1681,
+        height: 989,
         alt: "Last-Leg Toolkit",
       },
     ],
